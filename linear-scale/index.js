@@ -41,7 +41,7 @@ const createScale1 = (params) => {
   }
 }
 
-const scale = createScale1({domain: [0,5], range: [0,100]});
+const scale1 = createScale1({domain: [0,5], range: [0,100]});
 const scaleIncome = createScale1({domain: [0,150000], range:[0,100]})
 console.log(scale1(2)); // -> 40
 console.log(scale1(4)) // -> 80
